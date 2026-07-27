@@ -1,7 +1,14 @@
 aid: inbotiqa
 name: INBOTIQA
-description: INBOTIQA is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'INBOTIQA is a UK-based fintech whose flagship product, YUDOmail, is an
+  Intelligent Business Email and shared-mailbox management platform for high-volume
+  group inboxes at banks, BPOs and financial-services operations teams. YUDOmail layers
+  over Microsoft 365 and Google Workspace to turn incoming emails into assigned, trackable
+  tasks with ownership, due dates, SLA tracking, machine-learning triage and sentiment
+  analysis, audit trails and analytics, without replacing the underlying email platform.
+  It deploys in the cloud or on-premises, integrates with Symphony chat and Microsoft
+  Teams, and is used across KYC, FX, collateral, settlements and trade-support functions.
+  INBOTIQA was a 2019 Barclays Accelerator (powered by Techstars) company.'
 url: https://raw.githubusercontent.com/api-evangelist/inbotiqa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://inbotiqa.com/wp-content/uploads/2024/11/ban-dev-1.png
 tags:
 - Company
+- Email
+- Shared Inbox
+- Workflow
+- Fintech
+- Financial Services
+- Machine Learning
+- Productivity
+- Collaboration
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/inbotiqa-domain-security.yml
 - type: Website
   url: https://inbotiqa.com/
+- type: Pricing
+  url: https://inbotiqa.com/pricing/
+- type: Blog
+  url: https://inbotiqa.com/blog/
+- type: Login
+  url: https://inbotiqa.com/login
+- type: Support
+  url: https://inbotiqa.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/78152246
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
