@@ -1,0 +1,31 @@
+# Front Door AI Index — inbotiqa — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: inbotiqa
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: inbotiqa.com
+  final_host: inbotiqa.com
+  ownership: own
+  owner: inbotiqa
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 7.59
+  words: 1582
+  tiers:
+    agentic: 1
+    core: 9
+    model: 2
+  ambiguous: 1
+  top_terms:
+    AI: 4
+    LLMs: 3
+    large language model: 2
+    Hugging Face: 1
+    OpenAI: 1
+    intelligence: 1
+    prompts: 1
