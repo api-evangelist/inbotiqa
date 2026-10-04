@@ -48,8 +48,8 @@ tags:
 - Shared Inbox
 - Workflows
 - Fintech
-- Financial-Services
-- Machine-Learning
+- Financial Services
+- Machine Learning
 - Productivity
 - Collaboration
 - Software-as-a-Service
@@ -64,6 +64,8 @@ tags_raw:
 - Productivity
 - Collaboration
 - SaaS
+- Financial-Services
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
