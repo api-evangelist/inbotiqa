@@ -1,0 +1,52 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://inbotiqa.com/pricing/
+sources:
+- https://inbotiqa.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: On Prem ($26 /user/month)*
+  managed_tier: Standard
+published: true
+note: Per-user tiers for YUDOmail business email product; cloud and on-prem prices listed. Enterprise
+  tier is quote-based.
+plan_count: 4
+currency: USD
+plans:
+- name: Standard
+  price_text: $ 22 Per User Per Month
+  price: 22
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 1-100 Users
+  overage: On Prem ($26 /user/month)* ; * Minimum 10 users
+- name: Growth
+  price_text: $ 20 Monthly
+  price: 20
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 101-250 Users
+  overage: On Prem ($24 /user/month)*
+- name: Corporate
+  price_text: $ 18 Monthly
+  price: 18
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 251 - 500 Users
+  overage: On Prem ($22 /user/month)*
+- name: Enterprise
+  price_text: Ask Us
+  period: none
+  included_quota: On Prem or Cloud 500+ Users Custom Metrics
